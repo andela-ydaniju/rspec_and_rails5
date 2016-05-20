@@ -1,4 +1,4 @@
-##5 possible problems and their solutions testing using using RSpec on Rails 5
+##5 Potential problems and solutions when using RSpec with Rails 5
 
 Few days ago, I ventured into using Rails 5 for a project. I kept getting lots of deprecation warnings and errors. After a while, I was able to fix them all but not without troubles. So, I decided to help out anyone who might be in same condition. Here are 5 possible problems and solutions for those using Rails 5 with RSpec.
 
@@ -110,7 +110,7 @@ NoMethodError:
 ```
 for the first. The second will be
 
-```ruby
+```
 NoMethodError:
   assert_template has been extracted to a gem. To continue using it,
     add `gem 'rails-controller-testing'` to your Gemfile.
